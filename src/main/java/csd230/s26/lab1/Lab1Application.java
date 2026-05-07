@@ -23,8 +23,8 @@ public class Lab1Application {
 	@Bean
 	CommandLineRunner initDatabase(BookRepository bookRepository,
 								   MagazineRepository magazineRepository,
-								   DiscMagEntityRepository discMagRepository,
-								   TicketEntityRepository ticketRepository,
+								   DiscMagRepository discMagRepository,
+								   TicketRepository ticketRepository,
 								   ProductRepository productRepository) {
 		return args -> {
 			Faker faker = new Faker();
